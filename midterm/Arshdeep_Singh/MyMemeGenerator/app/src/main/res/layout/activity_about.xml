@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arshdeepsingh.mymemegenerator.Activities.AboutActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/about_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            style="@style/HeaderBar"
+            android:elevation="4dp"
+            />
+
+        <TextView
+            android:textSize="24sp"
+            android:text="This meme app has been made for learning purpose only"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+        <TextView
+            android:textSize="24sp"
+            android:text="This project is a valuable part of android developemnt course attended by me "
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:textSize="24sp"
+            android:text="This is my first attempt.I will be adding more features and will make the source code available to everyone"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+        <TextView
+            android:textSize="24sp"
+            android:text="Arshdeep Singh\n9899347726\nprinceofpunjab1699@gmail.com"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

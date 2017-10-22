@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.arshdeepsingh.mymemegenerator.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        style="@style/HeaderBar"
+        android:elevation="4dp"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/etTop"
+        android:hint="enter top text"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etBottom"
+        android:hint="enter bottom text"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_margin="4dp"
+        android:elevation="4dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:layout_weight="1"
+        android:id="@+id/btnSelect"
+        android:text="Select Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_weight="40"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            android:id="@+id/tvTop"
+            android:layout_centerInParent="true"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            />
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            android:id="@+id/tvBottom"
+            android:layout_centerInParent="true"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_margin="4dp"
+        android:elevation="4dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:layout_weight="1"
+        android:id="@+id/btnPreview"
+        android:text="Preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
